@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scal=1.0">
+    <title>HTML&CSS実践</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">特徴</a></li>
+          <li><a href="#news">ニュース</a></li>
+          <li><a href="#plan">プラン一覧</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="top">
+        <div class="top_wrap">
+          <h1>○○スポーツジム
+          </h1>
+        
+        </div>
+      </section>
+
+      <section id="about">
+        <h2 class="section_title">特徴</h2>
+        <div class="about_wrap">
+          <div class="about_left">
+             <img src="img/about1.png" alt="レッスン会場の画僧">
+          </div>
+
+          <div class="about_right">
+            <h3>充実のレッスン数</h3>
+            <p>○○スポーツジムでは、初心者から上級者の方まで満足してご利用していただくために、多数のレッスンをご用意しております。</p>
+          </div>
+        </div> 
+        </div>
+      </section>
+
+      <section id="news">
+        <h2 class="section_title">お知らせ</h2>
+        <div class="news_wrap">
+          <p>2021/2/13 紹介キャンペーン開催について</p>
+          <p>2020/12/25 年末年始の営業について</p>
+          <p>2020/10/23 トレーニング用品のレンタルについて</p>
+        </div>
+      </section>
+
+      <section id="plan">
+        <h2 class="section_title">プラン一覧</h2>
+        <div class="plan_wrap">
+          <table>
+            <tr>
+              <th>ー</th>
+              <th>まるごとプラン</th>
+              <th>レッスン集中プラン</th>
+              <th>ジムプラン</th>
+            </tr>
+            <tr>
+              <td>月会費</td>
+              <td>8000円/月</td>
+              <td>6000円/月</td>
+              <td>4000円/月</td>
+            </tr>
+            <tr>
+              <td>レッスン利用</td>
+              <td>○</td>
+              <td>○</td>
+              <td>×</td>
+            </tr>
+            <tr>
+              <td>ジム利用</td>
+              <td>○</td>
+              <td>×</td>
+              <td>○</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2 class="section_title">お問い合わせ</h2>
+          <form class="form" method="post">
+            <div>
+              <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+              <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="user_mail">
+            </div>
+            <div>
+              <label for="tel">Tell:</label>
+                <input type="tel" id="tel" name="user_tel">
+            </div>
+            <div>
+              <label for="msg">Message:</label>
+                <textarea type="msg" name="user_message"></textarea>
+            </div>
+            <div class="button_submit">
+              <button class="button" type="submit">送信</button>
+            </div>
+
+          </form>
+      </section>
+    </main>
+    <footer id="footer">
+      <div>
+        <small>© 2021 WithCode ALL rights reserved</small>
+      </div>
+    </footer>
+
+  </body>
+
+
+
+</html>
